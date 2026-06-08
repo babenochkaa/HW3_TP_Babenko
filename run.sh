@@ -15,7 +15,7 @@ case $COMMAND in
 
   create_local_data)
     mkdir -p local_data
-    python generator/generate.py local_data
+    python3 generator/generate.py local_data
     ;;
 
   build_reporter)
